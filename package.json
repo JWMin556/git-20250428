@@ -2,10 +2,9 @@
   "name": "husky-lintstaged-eslint-prettier-example",
   "version": "1.0.0",
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx",
-    "format": "prettier --write .",
     "prepare": "husky install",
-    "build": "echo 'No build step yet'"
+    "build": "echo 'No build step needed'",
+    "test": "echo 'No tests yet"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.1",
